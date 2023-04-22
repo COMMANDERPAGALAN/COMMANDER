@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COMMANDER</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+
+      body {
+        background-color: #df8600;
+        margin: 0;
+        padding: 0;
+      }
+
+      header {
+        background-color: black;
+        color: #FFDB58;
+        top: 0;
+        width: 100%;
+        padding:20px;
+      }
+      
+      ul {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        text-align: center;
+      }
+
+      li:not(:last-child) {
+        margin-right: 20px;
+      }
+      
+      footer {
+        background-color: black;
+        color: #FFDB58;
+        text-align: center;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        padding: 20px;
+      }
+      
+      footer p {
+        margin: 0;
+      }
+
+      .lezgoin {
+        text-align: center;
+      }
+
+
+    </style>
+    <script>
+      function goToHomePage() {
+        location.reload();
+      }
+    </script>
+  </head>
+  
+  <body style="background-color: #df8600;">
+    <header>
+      <nav>
+        <ul>
+          <li> 
+            <a href="./" onclick="goToHomePage()" style="font-family: Poppins; color: #ffffff;">HOME</a>
+          </li>
+          <li>
+            <a href="./profile" style="font-family: Poppins; color: #ffffff;">PROFILE</a>
+          </li>
+          <li>
+            <a href="./clickhere" style="font-family: Poppins; color: #ffffff;">CLICK HERE</a>
+          </li>
+        </ul>
+      </nav>            
+    </header>            
+
+    <main>
+      <section class="banner">
+        <div class="lezgoin">
+          <h4 style="font-family: Raleway; color: #000000;">COMMANDER</h4>
+        </div>
+      </section>
+    </main>       
+    
+    <footer>
+      <p style="font-family: Poppins; color: #ffffff;">LET ME IN AND G FOR THE GAME</p>
+    </footer>   
+    
+    <img src="eh (2).jpg" alt="My Image" width="900" height="500" style="display: block; margin: 0 auto;">
+    
+  </body>
+</html>
